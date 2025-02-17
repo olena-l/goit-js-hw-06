@@ -8,11 +8,11 @@ class StringBuilder {
   }
 
   padEnd(str) {
-    this.#value = `${str}${this.#value}`;
+    this.#value = `${this.#value}${str}`;
   }
 
   padStart(str) {
-    this.#value = `${this.#value}${str}`;
+    this.#value = `${str}${this.#value}`;
   }
 
   padBoth(str) {
